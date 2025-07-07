@@ -1,22 +1,4 @@
----
-title: "Time Series Final Project"
-author: "Bhavya Dinesh (s3980321)</br> Rishit Turakhia (s3935687)</br> Saksham Sharma (s3986713)</br> Samay Jain (s3963844)"
-date: "2024-06-06"
-output:
-  html_document:
-    toc: yes
-  'html_document:': default
-  pdf_document:
-    toc: yes
-  word_document:
-    toc: yes
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r, echo = FALSE, message = FALSE, warning=FALSE, results= 'hide'}
 library(TSA)
 library(fUnitRoots)
 library(lmtest)
